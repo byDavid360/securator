@@ -16,7 +16,7 @@ else
         echo "Bienvenido a Securator"
 fi
 
-echo -e "Este script genera una contraseña aleatoria a partir de una longitud dada\nusando la libreria openssl y la guarda en el fichero securator.txt (creado automati$
+echo -e "Este script genera una contraseña aleatoria a partir de una longitud dada\nusando la libreria openssl y la guarda en el fichero securator.txt (creado automaticamente en el propio script)"
 
 #compruebo si esta openssl instalado
 libreria=$(which openssl)
